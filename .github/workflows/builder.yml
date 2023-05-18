@@ -38,7 +38,7 @@ jobs:
           ls -la
           sudo zip -r archive1.zip .
           ls -la
-          aws s3 cp archive1.zip s3://${{ env.AWS_MODULE_X_BUCKET }}/unity
+          aws s3 cp archive1.zip s3://${{ env.AWS_MODULE_X_BUCKET }}/unity/
           ls -la
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
