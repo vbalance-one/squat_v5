@@ -1,4 +1,4 @@
-name: Build project and push to S3
+name: Build project and push to S3 again
 
 on: [push]
 env:
